@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.App{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+}
+.header{
+    background-color: #5d7afc;
+    height: 60px;
+    color: beige;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    box-shadow: 0px 0px 15px rgb(118, 109, 255);
+}
+.container{
+    
+    background: linear-gradient(45deg, #9badfa, #5d7afc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    height: 100px;
+    box-shadow: 0px 0px 10px rgb(95, 124, 255);
+    border: none;
+    margin: 40px;
+    padding: 40px;
+    text-align: center;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.profilebox{
+    color: rgb(71, 58, 58);
+    margin: auto;
+    margin-top: 0px;
+    
+    font-size: 25px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+
+    
+}
+.details{
+    font-size: 12px;
+    color: rgb(49, 38, 41);
+    
+}
+button{
+    width: 180px;
+    height: 60px;
+    font-size: 20px;
+    background-color: #5d7afc;
+    
+    border-radius: 50px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover{
+    background-color: #95f095
+
+}
+button:active {
+    background-color: #d8d6e4;  /* Even darker shade on click */
+    transform: scale(0.85);     /* Slight shrink on click */
+}
+.addcontact, .showcontact{
+    color: black;
+    background-color: #f1effc;
+    
+    
+}
+.add{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}

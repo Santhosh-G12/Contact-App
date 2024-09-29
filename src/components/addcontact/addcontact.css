@@ -1,0 +1,46 @@
+.rApp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(45deg ,rgb(243, 242, 243), rgb(187, 189, 255));
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    
+    
+     
+}
+.formbox{
+    color: rgb(32, 29, 29);
+    box-shadow: 0px 0px 10px rgb(235, 155, 215);
+    border-radius: 30px;
+    background: linear-gradient(45deg ,#5d7afc, rgb(132, 124, 248));
+    display: flex;
+    flex-direction: column;
+    
+    width: 600px;
+    height: fit-content;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+    
+
+input{
+    padding: 16px;
+    border-radius: 30px;
+    margin:15px;
+    border: none;
+    
+}
+.save{
+    background-color: rgb(168, 252, 152);
+    color: rgb(19, 18, 18);
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 150px;
+}
